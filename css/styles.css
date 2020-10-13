@@ -74,8 +74,8 @@ hr {
 	top: 0px;
 	min-height: 100%;
 	width: 100%;
-	background-size: 200px 200px;
-	background-image: url("../images/background_stars.jpg");
+	/*background-size: 200px 200px;*/
+	/*background-image: url("../images/background_stars.jpg");*/
 	background-color: black;
 	color: black;
 	text-align: center;
