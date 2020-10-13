@@ -6,32 +6,28 @@ html, body {
 
 /* unvisited link */
 a:link {
-    color: yellow;
-    /*color: black;*/
+    color: black;
 }
 
 /* visited link */
 a:visited {
-    color: yellow;
-    /*color: black;*/
+    color: black;
 }
 
 /* mouse over link */
 a:hover {
-    color: yellow;
-    /*color: black;*/
+    color: black;
 }
 
 /* selected link */
 a:active {
-    color: yellow;
-    /*color: black;*/
+    color: black;
 }
 
 hr {
-	color: yellow;
-	background-color: yellow;
-	border-color: yellow;
+	color: black;
+	background-color: white;
+	border-color: white;
 }
 
 #DMR_img {
@@ -57,7 +53,7 @@ hr {
 
 #back_background {
 	height: 100%;
-	background-color: black;
+	background-color: white;
 }
 
 #background {
@@ -65,15 +61,15 @@ hr {
 	min-height: 100%;
 	width: 100%;
 	background-size: 200px 200px;
-	background-color: #FFFFFF;
+	background-color: white;
 	color: #555555;
 	text-align: center;
 }
-#other_bits_background a:link { color: #555555; }
-#other_bits_background a:visited { color: #555555; }
-#other_bits_background a:hover { color: #555555; }
-#other_bits_background a:active { color: #555555; }
-#other_bits_background hr {
+#background a:link { color: #555555; }
+#background a:visited { color: #555555; }
+#background a:hover { color: #555555; }
+#background a:active { color: #555555; }
+#background hr {
 	color: #555555;
 	background-color: #555555;
 	border-color: #555555;
