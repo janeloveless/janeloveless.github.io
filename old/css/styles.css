@@ -1,0 +1,59 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+/* unvisited link */
+a:link {
+    color: black;
+}
+
+/* visited link */
+a:visited {
+    color: black;
+}
+
+/* mouse over link */
+a:hover {
+    color: black;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+
+#background {
+	top: 0px;
+	min-height: 100%;
+	width: 100%;
+	background-size: 200px 200px;
+	color: black;
+	text-align: center;
+}
+
+
+#menu {
+	display: block;
+	position:static;
+	min-height: 100%;
+	width: 100%;
+	background-size: 200px 200px;
+	color: black;
+	text-align: center;
+}
+
+
+#body {
+	display: block;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#footer {
+	display: block;
+}
