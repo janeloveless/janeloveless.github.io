@@ -6,35 +6,35 @@ html, body {
 
 /* unvisited link */
 a:link {
-    color: yellow;
+    color: white;
     /*color: black;*/
 }
 
 /* visited link */
 a:visited {
-    color: yellow;
+    color: white;
     /*color: black;*/
 }
 
 /* mouse over link */
 a:hover {
-    color: yellow;
+    color: white;
     /*color: black;*/
 }
 
 /* selected link */
 a:active {
-    color: yellow;
+    color: white;
     /*color: black;*/
 }
 
 hr {
-	color: yellow;
-	background-color: yellow;
-	border-color: yellow;
+	color: white;
+	background-color: white;
+	border-color: white;
 }
 
-#DMR_img {
+#JL_img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -44,7 +44,7 @@ hr {
 	width: 60%;
 }
 
-#DMR_glitter {
+#JL_glitter {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -63,89 +63,6 @@ hr {
 	background-color: black;
 	color: black;
 	text-align: center;
-}
-
-#back_background {
-	height: 100%;
-	background-color: black;
-}
-
-#index_background {
-	top: 0px;
-	min-height: 100%;
-	width: 100%;
-	/*background-size: 200px 200px;*/
-	/*background-image: url("../images/background_stars.jpg");*/
-	background-color: black;
-	color: black;
-	text-align: center;
-}
-
-#about_background {
-	top: 0px;
-	min-height: 100%;
-	width: 100%;
-	background-size: 200px 200px;
-	background-color: #ff6666;
-	color: #009933;
-	text-align: center;
-}
-
-#publications_background {
-	top: 0px;
-	min-height: 100%;
-	width: 100%;
-	background-size: 200px 200px;
-	background-color: #9933ff;
-	color: #009933;
-	text-align: center;
-}
-#publications_background a:link { color: #ff6699; }
-#publications_background a:visited { color: #ff6699; }
-#publications_background a:hover { color: #ff6699; }
-#publications_background a:active { color: #ff6699; }
-#publications_background hr {
-	color: #ff6699;
-	background-color: #ff6699;
-	border-color: #ff6699;
-}
-
-#teaching_background {
-	top: 0px;
-	min-height: 100%;
-	width: 100%;
-	background-size: 200px 200px;
-	background-color: #ff9933;
-	color: #cc0099;
-	text-align: center;
-}
-#teaching_background a:link { color: #66ccFF; }
-#teaching_background a:visited { color: #66ccFF; }
-#teaching_background a:hover { color: #66ccFF; }
-#teaching_background a:active { color: #66ccFF; }
-#teaching_background hr {
-	color: #66ccFF;
-	background-color: #66ccFF;
-	border-color: #66ccFF;
-}
-
-#music_background {
-	top: 0px;
-	min-height: 100%;
-	width: 100%;
-	background-size: 200px 200px;
-	background-color: black;
-	color: white;
-	text-align: center;
-}
-#music_background a:link { color: white; }
-#music_background a:visited { color: white; }
-#music_background a:hover { color: white; }
-#music_background a:active { color: white; }
-#music_background hr {
-	color: white;
-	background-color: white;
-	border-color: white;
 }
 
 #other_bits_background {
@@ -182,69 +99,6 @@ hr {
 	margin-right: auto;
 }
 
-#index_menu {
-	display: block;
-	position:static;
-	min-height: 100%;
-	width: 550px;
-	background-size: 200px 200px;
-	color: black;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#about_menu {
-	display: block;
-	position:static;
-	min-height: 100%;
-	width: 550px;
-	background-size: 200px 200px;
-	color: #00ffff;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#publications_menu {
-	display: block;
-	position:static;
-	min-height: 100%;
-	width: 550px;
-	background-size: 200px 200px;
-	color: #ffcccc;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#teaching_menu {
-	display: block;
-	position:static;
-	min-height: 100%;
-	width: 550px;
-	background-size: 200px 200px;
-	color: #00ff99;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-#other_bits_menu {
-	display: block;
-	position:static;
-	min-height: 100%;
-	width: 550px;
-	background-size: 200px 200px;
-	color: #555555;
-	text-align: center;
-	margin-left: auto;
-	margin-right: auto;
-
-	a {
-	}
-}
-
 /* ----------------------------------------------------------------- */
 
 #body {
@@ -252,49 +106,11 @@ hr {
 	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
-	color: yellow;
+	color: white;
 	background-color: black;
 }
 
-#index_body {
-	display: block;
-	width: 550px;
-	margin-left: auto;
-	margin-right: auto;
-	color: yellow;
-}
 
-#about_body {
-	display: block;
-	width: 550px;
-	margin-left: auto;
-	margin-right: auto;
-	color: #00ffff;
-}
-
-#publications_body {
-	display: block;
-	width: 550px;
-	margin-left: auto;
-	margin-right: auto;
-	color: #ffcccc;
-}
-
-#teaching_body {
-	display: block;
-	width: 550px;
-	margin-left: auto;
-	margin-right: auto;
-	color: #ccff66;
-}
-
-#other_bits_body {
-	display: block;
-	width: 550px;
-	margin-left: auto;
-	margin-right: auto;
-	color: #555555;
-}
 
 /* ----------------------------------------------------------------- */
 
