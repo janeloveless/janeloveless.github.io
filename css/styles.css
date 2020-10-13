@@ -6,35 +6,35 @@ html, body {
 
 /* unvisited link */
 a:link {
-    color: white;
+    color: yellow;
     /*color: black;*/
 }
 
 /* visited link */
 a:visited {
-    color: white;
+    color: yellow;
     /*color: black;*/
 }
 
 /* mouse over link */
 a:hover {
-    color: white;
+    color: yellow;
     /*color: black;*/
 }
 
 /* selected link */
 a:active {
-    color: white;
+    color: yellow;
     /*color: black;*/
 }
 
 hr {
-	color: white;
-	background-color: white;
-	border-color: white;
+	color: yellow;
+	background-color: yellow;
+	border-color: yellow;
 }
 
-#JL_img {
+#DMR_img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -44,7 +44,7 @@ hr {
 	width: 60%;
 }
 
-#JL_glitter {
+#DMR_glitter {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
@@ -55,17 +55,12 @@ hr {
 
 /* ----------------------------------------------------------------- */
 
-#background {
-	top: 0px;
-	min-height: 105%;
-	width: 100%;
-	background-size: 200px 200px;
+#back_background {
+	height: 100%;
 	background-color: black;
-	color: black;
-	text-align: center;
 }
 
-#other_bits_background {
+#background {
 	top: 0px;
 	min-height: 100%;
 	width: 100%;
@@ -92,11 +87,13 @@ hr {
 	min-height: 100%;
 	width: 550px;
 	background-size: 200px 200px;
-	color: black;
-	background-color: black;
+	color: #555555;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
+
+	a {
+	}
 }
 
 /* ----------------------------------------------------------------- */
@@ -106,11 +103,8 @@ hr {
 	width: 550px;
 	margin-left: auto;
 	margin-right: auto;
-	color: white;
-	background-color: black;
+	color: #555555;
 }
-
-
 
 /* ----------------------------------------------------------------- */
 
